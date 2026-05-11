@@ -1,0 +1,32 @@
+{
+  "name": "@zeekcheung/md2html",
+  "author": "zeekcheung",
+  "description": "A markdown compiler for parsing markdown to pretty html.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": ["markdown", "html"],
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "md2html": "bin/compiler.js"
+  },
+  "homepage": "https://github.com/zeekcheung/md2html#readme",
+  "bugs": {
+    "url": "https://github.com/zeekcheung/md2html/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeekcheung/md2html.git"
+  },
+  "scripts": {
+    "test": "node ./bin/compiler.js README.md README.html"
+  },
+  "dependencies": {
+    "cac": "^7.0.0",
+    "czc": "^0.0.0-alpha.0",
+    "marked": "^18.0.3",
+    "shiki": "^4.0.2"
+  }
+}
