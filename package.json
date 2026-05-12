@@ -3,8 +3,11 @@
   "author": "zeekcheung",
   "description": "A markdown compiler for parsing markdown to pretty html.",
   "license": "MIT",
-  "version": "1.0.0",
-  "keywords": ["markdown", "html"],
+  "version": "1.0.1",
+  "keywords": [
+    "markdown",
+    "html"
+  ],
   "type": "module",
   "publishConfig": {
     "access": "public"
