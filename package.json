@@ -21,7 +21,7 @@
     "url": "git+https://github.com/zeekcheung/md2html.git"
   },
   "scripts": {
-    "test": "node ./bin/compiler.js README.md README.html"
+    "test": "node ./bin/compiler.js -i README.md -o README.html -t md2html"
   },
   "dependencies": {
     "cac": "^7.0.0",
